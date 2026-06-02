@@ -17,4 +17,4 @@ deployed as an interactive web app.
 Draw any digit (0–9) on the canvas and the model predicts it in real time.
 
 ## Live Demo
-[Click here to try it] (file:///C:/Users/HP/Downloads/mnist_netlify_BETTER_DETECTION/index.html)
+[https://chipper-kangaroo-08c73c.netlify.app/]
