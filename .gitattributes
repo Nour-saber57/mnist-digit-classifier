@@ -1,0 +1,2 @@
+*.bin linguist-vendored=true
+model/* linguist-vendored=true
