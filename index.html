@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MNIST Digit Classifier</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <h1>MNIST Digit Classifier</h1>
+      <p>Draw a digit from 0 to 9. The model will classify it using your TensorFlow/Keras architecture.</p>
+
+      <div class="status" id="status">Loading model...</div>
+
+      <canvas id="drawCanvas" width="280" height="280"></canvas>
+
+      <div class="buttons">
+        <button id="predictBtn">Predict</button>
+        <button id="clearBtn" class="secondary">Clear</button>
+      </div>
+
+      <div class="result">
+        <h2 id="prediction">Prediction: —</h2>
+        <div id="bars" class="bars"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
